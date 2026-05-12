@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mangilal Jwellers – Premium gold, diamond and bridal jewellery. BIS Hallmarked. Trusted since generations.">
+    <title>Mangilal Jwellers | Fine Jewellery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══ LOADER ════════════════════════════════ -->
+<div class="loader" id="loader">
+    <div class="loader-content" id="loaderContent">
+        <h1 class="loader-name">Mangilal Jwellers</h1>
+        <div class="loader-line"></div>
+        <p class="loader-tagline">Fine Jewellery Since Generations</p>
+    </div>
+</div>
+
+<!-- ══ NAVBAR ════════════════════════════════ -->
+<header class="header" id="header">
+    <div class="header-inner">
+        <a href="#home" class="logo">
+            <span class="logo-icon">✦</span>
+            <div>
+                <span class="logo-name">Mangilal Jwellers</span>
+                <span class="logo-tag">Fine Jewellery</span>
+            </div>
+        </a>
+
+        <nav class="nav" id="nav">
+            <a href="#home"        class="nav-a">Home</a>
+            <a href="#collections" class="nav-a">Collections</a>
+            <a href="#about"       class="nav-a">About</a>
+            <a href="#why-us"      class="nav-a">Why Us</a>
+            <a href="#contact"     class="nav-a">Contact</a>
+        </nav>
+
+        <div class="header-right">
+            <a href="https://wa.me/919685533548" target="_blank" class="btn-wa-nav">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <button class="burger" id="burger">
+                <i class="fas fa-bars" id="burgerIcon"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- ══ HERO CAROUSEL ══════════════════════════ -->
+<section class="hero" id="home">
+    <!-- Slides -->
+    <div class="slides-wrap">
+
+        <div class="slide active" style="background-image:url('https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1920&q=85')">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+                <p class="slide-eye">Fine Jewellery · BIS Hallmarked</p>
+                <h1 class="slide-h">Timeless Elegance,<br><em>Crafted in Gold</em></h1>
+                <p class="slide-p">Mangilal Jwellers — trusted by thousands of families since generations.</p>
+                <div class="slide-btns">
+                    <a href="#collections" class="btn-primary">Explore Collections</a>
+                    <a href="#contact"     class="btn-outline">Visit Our Store</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1920&q=85')">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+                <p class="slide-eye">Gold Collections</p>
+                <h1 class="slide-h">Pure Gold, Hallmarked<br><em>for Every Occasion</em></h1>
+                <p class="slide-p">22K &amp; 18K gold jewellery with BIS certification. Purity you can trust.</p>
+                <div class="slide-btns">
+                    <a href="#collections" class="btn-primary">View Gold Jewellery</a>
+                    <a href="https://wa.me/919685533548" target="_blank" class="btn-outline">Enquire Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1573408301185-9519df4f3aca?auto=format&fit=crop&w=1920&q=85')">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+                <p class="slide-eye">Diamond Jewellery</p>
+                <h1 class="slide-h">Where Brilliance<br><em>Meets Craftsmanship</em></h1>
+                <p class="slide-p">Certified diamonds set in stunning gold — IGI/GIA certified for your peace of mind.</p>
+                <div class="slide-btns">
+                    <a href="#collections" class="btn-primary">View Diamonds</a>
+                    <a href="#contact"     class="btn-outline">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1920&q=85')">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+                <p class="slide-eye">Bridal Collection</p>
+                <h1 class="slide-h">Make Your Special Day<br><em>Truly Unforgettable</em></h1>
+                <p class="slide-p">Complete bridal sets — maang tikka, necklace, bangles &amp; more crafted with love.</p>
+                <div class="slide-btns">
+                    <a href="#collections" class="btn-primary">Bridal Jewellery</a>
+                    <a href="https://wa.me/919685533548" target="_blank" class="btn-outline">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1920&q=85')">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+                <p class="slide-eye">Custom Designs</p>
+                <h1 class="slide-h">Your Vision,<br><em>Our Mastercraft</em></h1>
+                <p class="slide-p">Bespoke jewellery designed and crafted exactly to your imagination.</p>
+                <div class="slide-btns">
+                    <a href="#contact"     class="btn-primary">Design Your Jewel</a>
+                    <a href="#collections" class="btn-outline">See Collections</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="slide-arrow arrow-prev" id="slidePrev"><i class="fas fa-chevron-left"></i></button>
+    <button class="slide-arrow arrow-next" id="slideNext"><i class="fas fa-chevron-right"></i></button>
+
+    <div class="slide-dots" id="slideDots">
+        <span class="sdot active"></span>
+        <span class="sdot"></span>
+        <span class="sdot"></span>
+        <span class="sdot"></span>
+        <span class="sdot"></span>
+    </div>
+
+    <!-- Slide counter -->
+    <div class="slide-counter">
+        <span id="slideNum">01</span><span class="sc-sep">/</span><span>05</span>
+    </div>
+</section>
+
+<!-- ══ PILLARS ════════════════════════════════ -->
+<section class="pillars">
+    <div class="container">
+        <div class="pillars-grid">
+            <div class="pillar reveal">
+                <i class="fas fa-certificate pillar-ico"></i>
+                <div>
+                    <h4>BIS Hallmarked</h4>
+                    <p>Every piece certified for the purity you pay for</p>
+                </div>
+            </div>
+            <div class="pillar reveal" style="transition-delay:.1s">
+                <i class="fas fa-gem pillar-ico"></i>
+                <div>
+                    <h4>Certified Diamonds</h4>
+                    <p>IGI / GIA certified stones on every diamond piece</p>
+                </div>
+            </div>
+            <div class="pillar reveal" style="transition-delay:.2s">
+                <i class="fas fa-rotate pillar-ico"></i>
+                <div>
+                    <h4>Easy Exchange</h4>
+                    <p>Transparent buyback &amp; exchange on all jewellery</p>
+                </div>
+            </div>
+            <div class="pillar reveal" style="transition-delay:.3s">
+                <i class="fas fa-pencil-ruler pillar-ico"></i>
+                <div>
+                    <h4>Custom Designs</h4>
+                    <p>Your dream jewellery crafted to your specifications</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══ COLLECTIONS ════════════════════════════ -->
+<section class="collections section-pad bg-cream" id="collections">
+    <div class="container">
+        <div class="sec-head reveal">
+            <p class="eyebrow">Our Craftsmanship</p>
+            <h2>Exquisite <em>Collections</em></h2>
+            <p class="sec-sub">Curated fine jewellery for every occasion — crafted with passion and certified purity.</p>
+        </div>
+
+        <div class="col-grid">
+            <div class="col-card reveal">
+                <div class="col-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1600721391689-2564bb8055de?auto=format&fit=crop&w=700&q=80" alt="Gold Jewellery" loading="lazy">
+                    <div class="col-overlay">
+                        <a href="https://wa.me/919685533548?text=I%20am%20interested%20in%20Gold%20Jewellery" target="_blank" class="col-enquire">Enquire Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-info">
+                    <h3>Gold Jewellery</h3>
+                    <p>22K &amp; 18K gold necklaces, bangles, earrings &amp; sets crafted for every occasion.</p>
+                </div>
+            </div>
+
+            <div class="col-card reveal" style="transition-delay:.1s">
+                <div class="col-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=700&q=80" alt="Diamond Sets" loading="lazy">
+                    <div class="col-overlay">
+                        <a href="https://wa.me/919685533548?text=I%20am%20interested%20in%20Diamond%20Sets" target="_blank" class="col-enquire">Enquire Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <span class="col-badge">Most Popular</span>
+                </div>
+                <div class="col-info">
+                    <h3>Diamond Sets</h3>
+                    <p>IGI/GIA certified diamonds in stunning settings — brilliance meets craftsmanship.</p>
+                </div>
+            </div>
+
+            <div class="col-card reveal" style="transition-delay:.2s">
+                <div class="col-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=700&q=80" alt="Bridal Collection" loading="lazy">
+                    <div class="col-overlay">
+                        <a href="https://wa.me/919685533548?text=I%20am%20interested%20in%20Bridal%20Collection" target="_blank" class="col-enquire">Enquire Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-info">
+                    <h3>Bridal Collection</h3>
+                    <p>Complete bridal sets — maang tikka, necklace, bangles &amp; more for your special day.</p>
+                </div>
+            </div>
+
+            <div class="col-card reveal" style="transition-delay:.1s">
+                <div class="col-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1573408301185-9519df4f3aca?auto=format&fit=crop&w=700&q=80" alt="Engagement Rings" loading="lazy">
+                    <div class="col-overlay">
+                        <a href="https://wa.me/919685533548?text=I%20am%20interested%20in%20Engagement%20Rings" target="_blank" class="col-enquire">Enquire Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-info">
+                    <h3>Engagement Rings</h3>
+                    <p>Say forever with our exquisite rings in gold, platinum &amp; diamond.</p>
+                </div>
+            </div>
+
+            <div class="col-card reveal" style="transition-delay:.2s">
+                <div class="col-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?auto=format&fit=crop&w=700&q=80" alt="Silver Jewellery" loading="lazy">
+                    <div class="col-overlay">
+                        <a href="https://wa.me/919685533548?text=I%20am%20interested%20in%20Silver%20Jewellery" target="_blank" class="col-enquire">Enquire Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-info">
+                    <h3>Silver Jewellery</h3>
+                    <p>Pure 925 silver — payal, bichua, mangalsutra &amp; traditional designs.</p>
+                </div>
+            </div>
+
+            <div class="col-card reveal" style="transition-delay:.3s">
+                <div class="col-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=700&q=80" alt="Custom Designs" loading="lazy">
+                    <div class="col-overlay">
+                        <a href="https://wa.me/919685533548?text=I%20want%20a%20Custom%20Jewellery%20Design" target="_blank" class="col-enquire">Enquire Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-info">
+                    <h3>Custom Designs</h3>
+                    <p>Your vision crafted to life — bespoke jewellery made exactly for you.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══ ABOUT ══════════════════════════════════ -->
+<section class="about section-pad" id="about">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-img-col reveal">
+                <div class="about-img-frame">
+                    <img src="https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?auto=format&fit=crop&w=800&q=85" alt="Mangilal Jwellers — Fine Jewellery">
+                    <div class="about-img-badge">
+                        <span>Trusted</span>
+                        <strong>Since Generations</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text reveal" style="transition-delay:.15s">
+                <p class="eyebrow">Our Story</p>
+                <h2>Crafting Dreams Into<br><em>Precious Reality</em></h2>
+                <div class="gold-line"></div>
+                <p>Mangilal Jwellers has been a beacon of trust and elegance in the world of fine jewellery. We believe every piece of jewellery is more than an ornament — it is a cherished memory, a celebration of life's most precious moments.</p>
+                <p>Our master craftsmen combine age-old traditions with contemporary design, pouring their heart into every creation — from intricate gold sets to breathtaking diamond collections.</p>
+                <div class="about-stats">
+                    <div class="as-item">
+                        <strong><span class="count" data-target="5000">0</span>+</strong>
+                        <span>Happy Families</span>
+                    </div>
+                    <div class="as-item">
+                        <strong><span class="count" data-target="500">0</span>+</strong>
+                        <span>Unique Designs</span>
+                    </div>
+                    <div class="as-item">
+                        <strong><span class="count" data-target="25">0</span>+</strong>
+                        <span>Years of Trust</span>
+                    </div>
+                </div>
+                <a href="#contact" class="btn-primary">Visit Our Store</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══ BANNER CTA ══════════════════════════════ -->
+<section class="banner-cta" style="background-image:url('https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1920&q=80')">
+    <div class="banner-overlay"></div>
+    <div class="container banner-content reveal">
+        <p class="eyebrow" style="color:rgba(255,255,255,0.7)">Limited Period Offer</p>
+        <h2 style="color:#fff">Get a Free Design Consultation</h2>
+        <p style="color:rgba(255,255,255,0.8)">Visit our store or WhatsApp us to book your personal jewellery consultation — completely free.</p>
+        <a href="https://wa.me/919685533548?text=I%20want%20to%20book%20a%20free%20jewellery%20consultation" target="_blank" class="btn-primary">
+            <i class="fab fa-whatsapp"></i> Book on WhatsApp
+        </a>
+    </div>
+</section>
+
+<!-- ══ WHY US ══════════════════════════════════ -->
+<section class="why-us section-pad bg-cream" id="why-us">
+    <div class="container">
+        <div class="sec-head reveal">
+            <p class="eyebrow">Our Promise</p>
+            <h2>Why Choose <em>Mangilal Jwellers</em></h2>
+        </div>
+        <div class="why-grid">
+            <div class="why-card reveal">
+                <i class="fas fa-certificate why-ico"></i>
+                <h4>BIS Hallmarked</h4>
+                <p>Every gold piece is BIS hallmarked — the purity you pay for is exactly what you get.</p>
+            </div>
+            <div class="why-card reveal" style="transition-delay:.08s">
+                <i class="fas fa-tags why-ico"></i>
+                <h4>Best Prices</h4>
+                <p>Minimum making charges, competitive rates — finest jewellery at the best value.</p>
+            </div>
+            <div class="why-card reveal" style="transition-delay:.16s">
+                <i class="fas fa-rotate why-ico"></i>
+                <h4>Easy Exchange</h4>
+                <p>Bring your old jewellery and upgrade — transparent exchange &amp; buyback policy.</p>
+            </div>
+            <div class="why-card reveal" style="transition-delay:.24s">
+                <i class="fas fa-pencil-ruler why-ico"></i>
+                <h4>Custom Designs</h4>
+                <p>Skilled artisans craft your exact vision — bespoke jewellery, only for you.</p>
+            </div>
+            <div class="why-card reveal" style="transition-delay:.32s">
+                <i class="fas fa-shield-halved why-ico"></i>
+                <h4>Lifetime Care</h4>
+                <p>Free cleaning, polishing &amp; basic repairs for the lifetime of your purchase.</p>
+            </div>
+            <div class="why-card reveal" style="transition-delay:.4s">
+                <i class="fas fa-headset why-ico"></i>
+                <h4>Personal Service</h4>
+                <p>Our jewellery experts guide every visit — every customer feels like family.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══ TESTIMONIALS ═══════════════════════════ -->
+<section class="testimonials section-pad" id="testimonials">
+    <div class="container">
+        <div class="sec-head reveal">
+            <p class="eyebrow">Customer Reviews</p>
+            <h2>Words of <em>Love &amp; Trust</em></h2>
+        </div>
+        <div class="testi-outer reveal">
+            <div class="testi-track" id="testiTrack">
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p>"Bought my complete wedding jewellery set from Mangilal Jwellers and I am absolutely delighted! The quality, designs and finishing are outstanding. Every bride should visit this store."</p>
+                    <div class="testi-author">
+                        <div class="t-av">P</div>
+                        <div><strong>Priya Sharma</strong><br><span>Bridal Customer</span></div>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p>"Amazing service! I got my custom necklace designed here and it turned out exactly as I had imagined. The craftsmen are incredibly skilled and the staff is very helpful."</p>
+                    <div class="testi-author">
+                        <div class="t-av">R</div>
+                        <div><strong>Rahul Verma</strong><br><span>Custom Design Customer</span></div>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <p>"Trustworthy and reliable. Been buying from Mangilal Jwellers for years. The exchange policy is fully transparent and the prices are the best in town. Highly recommended!"</p>
+                    <div class="testi-author">
+                        <div class="t-av">S</div>
+                        <div><strong>Sunita Patel</strong><br><span>Loyal Customer</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-ctrl">
+                <button class="t-btn" id="tPrev"><i class="fas fa-arrow-left"></i></button>
+                <div class="t-dots">
+                    <span class="tdot active"></span>
+                    <span class="tdot"></span>
+                    <span class="tdot"></span>
+                </div>
+                <button class="t-btn" id="tNext"><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══ CONTACT ════════════════════════════════ -->
+<section class="contact section-pad bg-cream" id="contact">
+    <div class="container">
+        <div class="sec-head reveal">
+            <p class="eyebrow">Get In Touch</p>
+            <h2>Visit Us or <em>Send a Message</em></h2>
+        </div>
+        <div class="contact-grid">
+            <!-- Form -->
+            <div class="form-box reveal">
+                <h3>Send Us a Message</h3>
+                <p class="form-note"><i class="fab fa-whatsapp" style="color:#25D366"></i> Your message will open directly on WhatsApp</p>
+                <form id="contactForm">
+                    <div class="f-row">
+                        <div class="fg">
+                            <input type="text" id="fName" placeholder="Your Name *" required>
+                        </div>
+                        <div class="fg">
+                            <input type="tel" id="fPhone" placeholder="Phone Number *" required>
+                        </div>
+                    </div>
+                    <div class="fg">
+                        <input type="email" id="fEmail" placeholder="Email Address (Optional)">
+                    </div>
+                    <div class="fg">
+                        <select id="fInt">
+                            <option value="">Category of Interest</option>
+                            <option>Gold Jewellery</option>
+                            <option>Diamond Sets</option>
+                            <option>Bridal Collection</option>
+                            <option>Engagement Rings</option>
+                            <option>Silver Jewellery</option>
+                            <option>Custom Design</option>
+                            <option>General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="fg">
+                        <textarea id="fMsg" rows="4" placeholder="Your Message *" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-wa-full">
+                        <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                    </button>
+                </form>
+            </div>
+
+            <!-- Info + Map -->
+            <div class="info-col reveal" style="transition-delay:.15s">
+                <a href="https://share.google/ykt40HZfZYVHqEV4z" target="_blank" class="ic-row">
+                    <div class="ic-icon map"><i class="fas fa-location-dot"></i></div>
+                    <div>
+                        <strong>Our Location</strong>
+                        <span>Mangilal Jwellers</span>
+                        <small>Tap to open in Google Maps ↗</small>
+                    </div>
+                </a>
+                <a href="https://wa.me/919685533548" target="_blank" class="ic-row">
+                    <div class="ic-icon wa"><i class="fab fa-whatsapp"></i></div>
+                    <div>
+                        <strong>WhatsApp / Call</strong>
+                        <span>+91 96855 33548</span>
+                        <small>Available 10 AM – 8 PM</small>
+                    </div>
+                </a>
+                <div class="ic-row">
+                    <div class="ic-icon"><i class="fas fa-clock"></i></div>
+                    <div>
+                        <strong>Store Hours</strong>
+                        <span>Mon – Sat: 10:00 AM – 8:00 PM</span>
+                        <small>Sunday: 11:00 AM – 6:00 PM</small>
+                    </div>
+                </div>
+                <div class="map-wrap">
+                    <a href="https://share.google/ykt40HZfZYVHqEV4z" target="_blank" class="map-btn">
+                        <i class="fas fa-map-location-dot"></i> Open in Google Maps
+                    </a>
+                    <iframe
+                        src="https://maps.google.com/maps?q=Mangilal+Jwellers&output=embed&z=15"
+                        width="100%" height="260" style="border:0;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        title="Mangilal Jwellers Location">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══ FOOTER ════════════════════════════════ -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="ft-brand">
+                <div class="ft-logo">
+                    <span>✦</span> Mangilal Jwellers
+                </div>
+                <p>Crafting timeless jewellery with passion, precision and purity. Your trusted jeweller since generations.</p>
+                <div class="ft-social">
+                    <a href="https://wa.me/919685533548" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="ft-links">
+                <h5>Collections</h5>
+                <ul>
+                    <li><a href="#collections">Gold Jewellery</a></li>
+                    <li><a href="#collections">Diamond Sets</a></li>
+                    <li><a href="#collections">Bridal Collection</a></li>
+                    <li><a href="#collections">Engagement Rings</a></li>
+                    <li><a href="#collections">Silver Jewellery</a></li>
+                    <li><a href="#collections">Custom Designs</a></li>
+                </ul>
+            </div>
+            <div class="ft-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#why-us">Why Choose Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://wa.me/919685533548" target="_blank">WhatsApp Us</a></li>
+                </ul>
+            </div>
+            <div class="ft-links">
+                <h5>Contact</h5>
+                <ul>
+                    <li><a href="https://wa.me/919685533548" target="_blank"><i class="fab fa-whatsapp"></i> +91 96855 33548</a></li>
+                    <li><a href="https://share.google/ykt40HZfZYVHqEV4z" target="_blank"><i class="fas fa-location-dot"></i> View on Google Maps</a></li>
+                    <li><span><i class="fas fa-clock"></i> Mon–Sun: 10AM – 8PM</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mangilal Jwellers. All rights reserved.</p>
+            <p>Crafted with <i class="fas fa-heart" style="color:#B8860B"></i> for our customers</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ══ FLOATING ═══════════════════════════════ -->
+<a href="https://wa.me/919685533548" target="_blank" class="wa-float" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tooltip">Chat with us</span>
+</a>
+
+<button class="top-btn" id="topBtn" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
