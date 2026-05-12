@@ -494,6 +494,7 @@ button { cursor:pointer; border:none; background:none; font-family:inherit; }
     .btn-wa-nav { display:none; }
     .burger { display:flex; }
     .header-inner { padding:0 20px; }
+    .header-right { margin-left:auto; }
     .nav {
         position:fixed; top:72px; left:0; right:0;
         flex-direction:column; align-items:stretch; gap:0;
