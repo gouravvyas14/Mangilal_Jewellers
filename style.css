@@ -231,21 +231,6 @@ button { cursor:pointer; border:none; background:none; font-family:inherit; }
 .slide-p { font-size:1rem; color:rgba(255,255,255,0.78); margin-bottom:36px; max-width:480px; line-height:1.75; }
 .slide-btns { display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
 
-/* Arrows */
-.slide-arrow {
-    position:absolute; top:50%; z-index:10;
-    width:48px; height:48px;
-    border:1.5px solid rgba(255,255,255,0.4);
-    color:var(--white); font-size:.9rem;
-    display:flex; align-items:center; justify-content:center;
-    transform:translateY(-50%);
-    transition:all .3s var(--ease);
-    backdrop-filter:blur(4px); background:rgba(0,0,0,0.15);
-}
-.slide-arrow:hover { background:var(--gold); border-color:var(--gold); }
-.arrow-prev { left:40px; }
-.arrow-next { right:40px; }
-
 /* Dots */
 .slide-dots {
     position:absolute; bottom:36px; left:50%; transform:translateX(-50%); z-index:10;
@@ -533,8 +518,6 @@ button { cursor:pointer; border:none; background:none; font-family:inherit; }
     .slide-content { padding:0 24px; }
     .slide-h { font-size:2rem; }
     .slide-btns { flex-direction:column; align-items:flex-start; gap:12px; }
-    .arrow-prev { left:16px; }
-    .arrow-next { right:16px; }
     .col-grid   { grid-template-columns:1fr; }
     .why-grid   { grid-template-columns:1fr; }
     .footer-grid{ grid-template-columns:1fr; gap:32px; }

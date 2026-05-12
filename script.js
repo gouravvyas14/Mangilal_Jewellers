@@ -63,8 +63,6 @@ window.addEventListener('scroll', () => {
     const slides  = document.querySelectorAll('.slide');
     const dots    = document.querySelectorAll('.sdot');
     const numEl   = document.getElementById('slideNum');
-    const prevBtn = document.getElementById('slidePrev');
-    const nextBtn = document.getElementById('slideNext');
     const heroEl  = document.querySelector('.hero');
 
     let current = 0;
@@ -84,8 +82,6 @@ window.addEventListener('scroll', () => {
     function start() { timer = setInterval(() => goTo(current + 1), 5000); }
     function stop()  { clearInterval(timer); }
 
-    prevBtn.addEventListener('click', () => { stop(); goTo(current - 1); start(); });
-    nextBtn.addEventListener('click', () => { stop(); goTo(current + 1); start(); });
     dots.forEach((d, i) => d.addEventListener('click', () => { stop(); goTo(i); start(); }));
 
     /* Pause on hover */
