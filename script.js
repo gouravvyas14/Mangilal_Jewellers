@@ -23,18 +23,24 @@ const burger  = document.getElementById('burger');
 const burgerIcon = document.getElementById('burgerIcon');
 const nav     = document.getElementById('nav');
 
-burger.addEventListener('click', () => {
+burger.addEventListener('click', e => {
+    e.stopPropagation();
     const open = nav.classList.toggle('open');
     burgerIcon.className = open ? 'fas fa-times' : 'fas fa-bars';
-    document.body.style.overflow = open ? 'hidden' : '';
 });
 
 nav.querySelectorAll('.nav-a').forEach(a => {
     a.addEventListener('click', () => {
         nav.classList.remove('open');
         burgerIcon.className = 'fas fa-bars';
-        document.body.style.overflow = '';
     });
+});
+
+document.addEventListener('click', e => {
+    if (nav.classList.contains('open') && !nav.contains(e.target) && !burger.contains(e.target)) {
+        nav.classList.remove('open');
+        burgerIcon.className = 'fas fa-bars';
+    }
 });
 
 /* ══ ACTIVE NAV LINK ════════════════════════════ */
