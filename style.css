@@ -495,13 +495,13 @@ button { cursor:pointer; border:none; background:none; font-family:inherit; }
     .burger { display:flex; }
     .header-inner { padding:0 20px; }
     .nav {
-        position:absolute; top:100%; left:0; right:0;
+        position:fixed; top:72px; left:0; right:0;
         flex-direction:column; align-items:stretch; gap:0;
         margin-left:0; padding:0;
         background:var(--white);
         border-top:2px solid var(--gold);
         box-shadow:0 8px 28px rgba(0,0,0,0.13);
-        z-index:998;
+        z-index:1001;
         opacity:0; visibility:hidden; transform:translateY(-6px);
         transition:opacity .28s var(--ease), visibility .28s, transform .28s var(--ease);
     }
